@@ -1,0 +1,9 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    style="@style/mpmp"
+    tools:context=".OtherUI">
+
+    <TextView
+        android:id="@+id/ouiTV"
+        style="@style/tvCIP" />
+</RelativeLayout>

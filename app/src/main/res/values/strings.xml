@@ -3,5 +3,9 @@
 
     <string name="app_name">Demonstrační aplikace</string>
     <string name="maTV">MainActivity</string>
+    <string name="mdOpen">Otevřeno</string>
+    <string name="mdClose">Zavřeno</string>
+    <string name="naviBT1">Spustit activity 1</string>
+    <string name="naviBT2">Spustit activity 2</string>
 
 </resources>
