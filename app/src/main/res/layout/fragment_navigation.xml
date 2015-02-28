@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/drawer">
+
+    <Button
+        android:id="@+id/mdBT1"
+        style="@style/mpwc"
+        android:text="@string/naviBT1" />
+
+    <Button
+        android:id="@+id/mdBT2"
+        style="@style/mpwc"
+        android:text="@string/naviBT2" />
+</LinearLayout>
