@@ -1,10 +1,30 @@
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<android.support.v4.widget.DrawerLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/drawerLayout"
     style="@style/mpmp"
     tools:context=".MainActivity">
 
-    <TextView
-        style="@style/tvCIP"
-        android:text="@string/maTV" />
+    <RelativeLayout
+        android:id="@+id/content"
+        style="@style/mpmp">
 
-</RelativeLayout>
+        <TextView
+            style="@style/tvCIP"
+            android:text="@string/maTV" />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:id="@+id/mdRL"
+        style="@style/drawer">
+
+        <Button
+            android:id="@+id/mdBT1"
+            style="@style/mpwc"
+            android:text="@string/spustit1" />
+
+        <Button
+            android:id="@+id/mdBT2"
+            style="@style/mpwc"
+            android:text="@string/spustit2" />
+    </LinearLayout>
+</android.support.v4.widget.DrawerLayout>
