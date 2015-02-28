@@ -3,5 +3,10 @@
 
     <string name="app_name">Demonstrační aplikace</string>
     <string name="maTV">MainActivity</string>
+    <string name="mdOpen">Otevřeno</string>
+    <string name="mdClose">Zavřeno</string>
+    <string name="mdBT1">Spustit fragment 1</string>
+    <string name="mdBT2">Spustit fragment 2</string>
+    <string name="fhTV">Fragment home</string>
 
 </resources>

@@ -1,10 +1,14 @@
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<android.support.v4.widget.DrawerLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/md"
     style="@style/mpmp"
     tools:context=".MainActivity">
 
-    <TextView
-        style="@style/tvCIP"
-        android:text="@string/maTV" />
+    <FrameLayout
+        android:id="@+id/flContent"
+        style="@style/mpmp" />
 
-</RelativeLayout>
+    <FrameLayout
+        android:id="@+id/flNavigation"
+        style="@style/drawer" />
+</android.support.v4.widget.DrawerLayout>
